@@ -1,0 +1,30 @@
+.d{
+    background-color: rgb(24, 23, 23);
+    color: aliceblue;
+}
+#task{
+    position: relative;
+    left: 25%;
+    width:50%;
+}
+li{
+    position: relative;
+    left: 23%;
+    width:50%;
+}
+#t{
+    margin-top: 5%;
+}
+.comp{
+    text-decoration: line-through;
+}
+.colour{
+    color: black;
+}
+
+
+
+#taskNum{
+    display: inline-block;
+    margin-top: 20px;
+}
