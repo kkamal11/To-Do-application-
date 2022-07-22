@@ -1,11 +1,25 @@
 .d{
-    background-color: rgb(40,40,40);
+    background-color: rgb(56, 55, 55);
     color: aliceblue;
 }
-#task{
+#del{
+    display: none;
+}
+
+@media screen and (min-width:640px) {
+    li{
     position: relative;
-    left: 25%;
+    left: 23%;
     width:50%;
+    }
+    #task{
+        position: relative;
+        left: 25%;
+        width:50%;
+    }
+    #del{
+        display: inline;
+    }
 }
 #t{
     margin-top: 5%;
@@ -22,13 +36,4 @@
 #taskNum{
     display: inline-block;
     margin-top: 20px;
-}
-
-
-@media screen and (min-width:640px) {
-    li{
-    position: relative;
-    left: 23%;
-    width:50%;
-}
 }
