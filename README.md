@@ -1,6 +1,6 @@
 ## To-Do application built using VueJs
 
-This is a single-page web application built using HTML, CSS, JavaScript and <i>VueJs</i>.<br>
+This is a to-do web application built using HTML, CSS, JavaScript and <i>VueJs</i>.<br>
 Features :-- 
 <ul>
   <li>Ability to create and delete tasks.</li>
